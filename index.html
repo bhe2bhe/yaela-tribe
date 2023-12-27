@@ -1,0 +1,261 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <title>Bhe</title>
+    <style>
+        .fixed-height {
+            height: 400px; /* Set the desired fixed height */
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a href="#yaela" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-person-standing-dress"></i>
+                    I am Yaela
+                </span>
+            </a>
+
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#yaela" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="chat.html" class="nav-link">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#comments" class="nav-link">Comments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login" class="btn btn-primary">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main image & intro text -->
+    <section id="yaela">
+        <div class="container-lg mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Are you my friend?</div>
+                        <div class="display-5 text-muted">You can only interact if you have credentials</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quisquam vitae modi facere eaque nihil harum aspernatur saepe, inventore totam amet numquam sed, voluptate quam, voluptatibus nemo? Minus.</p>
+                    
+                    <!-- open sidebar / offcanvas -->
+                        <!-- codes -->
+                    <!-- offcanvas end -->
+                </div>
+                <div class="col-sm-8 col-md-5 text-center">
+                    <span class="tt" data-bs-placement="bottom" title="Y&Z">
+                        <img class="img-fluid" style="box-shadow: 0 1px 8px black;
+                        border-radius: 10px;" src="/images/main.jpg" alt="">
+                    </span>
+                    <a href="#photos" class="btn btn-primary mt-4">See More Photos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured photos -->
+    <section id="photos" class="bg-light mt-5 text-center">
+        <div class="container-lg pb-1">
+            <div class="text-center">
+                <h2>Glimpses of A Happy Life</h2>
+                <p class="lead text-muted">Enjoy the featured photos!</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-2">
+                <div class="col-xl-6">
+                    <div class="card border-1 border-primary">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Photo 1</h4>
+                            <p class="lead card-subtitle">Blah blah</p>
+                            <div class="container bg-secondary">
+                                <img src="/images/main.jpg" alt="" style="box-shadow: 0 1px 8px black;
+                                border-radius: 10px;" class="img-fluid fixed-height">
+                            </div>
+                            <br>
+                            <a href="comments.html" class="btn btn-primary btn-sm mt-3">What's up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card border-1 border-primary">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Photo 2</h4>
+                            <p class="lead card-subtitle">Blah blah</p>
+                            <div class="container bg-secondary">
+                                <img src="/images/airport.jpeg" alt="" style="box-shadow: 0 1px 8px black;
+                                border-radius: 10px;" class="img-fluid fixed-height">
+                            </div>
+                            <br>
+                            <a href="" class="btn btn-primary btn-sm mt-3">What's up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card border-1 border-primary">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Photo 3</h4>
+                            <p class="lead card-subtitle">Blah blah</p>
+                            <div class="container bg-secondary">
+                                <img src="/images/airport.jpeg" alt="" style="box-shadow: 0 1px 8px black;
+                                border-radius: 10px;" class="img-fluid fixed-height">
+                            </div>
+                            <br>
+                            <a href="" class="btn btn-primary btn-sm mt-3">What's up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- accordion -->
+    <section id="comments">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>About Me</h2>
+                <p class="lead text-muted">A quick glance...</p>
+            </div>
+
+            <div class="row my-2 g-5 justify-content-around align-items-center">
+
+                <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="chapters">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#chapter-1" aria-expanded="true"
+                            aria-controls="chapter-1">My Most Memorable Experience</button>
+                        </h2>
+                        <div id="chapter-1" class="accordion-collapse collapse show"
+                        aria-labelledby="heading-1" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam et error accusantium animi, commodi nihil cupiditate aspernatur exercitationem doloremque, expedita vel natus ducimus autem aut, possimus dolorem!</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore veniam deserunt praesentium distinctio, sapiente necessitatibus iusto doloremque reiciendis, nemo sunt optio. Excepturi laudantium soluta veritatis consectetur voluptatum maxime sequi architecto?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#chapter-2" aria-expanded="true"
+                            aria-controls="chapter-2">What Makes Me Happy</button>
+                        </h2>
+                        <div id="chapter-2" class="accordion-collapse collapse"
+                        aria-labelledby="heading-2" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam asperiores suscipit et error accusantium animi, commodi nihil cupiditate aspernatur exercitationem doloremque, expedita vel natus ducimus autem aut, possimus dolorem!</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore veniam deserunt praesentium distinctio, sapiente necessitatibus iusto doloremque reiciendis, nemo sunt optio. Excepturi laudantium soluta veritatis consectetur voluptatum maxime sequi architecto?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#chapter-3" aria-expanded="false"
+                            aria-controls="chapter-1">My Favorites</button>
+                        </h2>
+                        <div id="chapter-3" class="accordion-collapse collapse"
+                        aria-labelledby="heading-3" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam asperiores suscipit et error accusantium animi, commodi nihil cupiditate aspernatur exercitationem doloremque, expedita vel natus ducimus autem aut, possimus dolorem!</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore veniam deserunt praesentium distinctio, sapiente necessitatibus iusto doloremque reiciendis, nemo sunt optio. Excepturi laudantium soluta veritatis consectetur voluptatum maxime sequi architecto?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#chapter-4" aria-expanded="false"
+                            aria-controls="chapter-1">Things Most People Like But I Don't</button>
+                        </h2>
+                        <div id="chapter-4" class="accordion-collapse collapse"
+                        aria-labelledby="heading-4" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam asperiores suscipit et error accusantium animi, commodi nihil cupiditate aspernatur exercitationem doloremque, expedita vel natus ducimus autem aut, possimus dolorem!</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore veniam deserunt praesentium distinctio, sapiente necessitatibus iusto doloremque reiciendis, nemo sunt optio. Excepturi laudantium soluta veritatis consectetur voluptatum maxime sequi architecto?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modals / popup -->
+    <section class="bg-light">
+        <div class="container mb-0 pb-5">
+            <div class="text-center">
+                <h2>Jois Us</h2>
+                <p class="lead">Get the latest updates...</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem explicabo libero adipisci rerum, alias voluptatibus fugiat at ratione commodi exercitationem, perferendis praesentium, pariatur rem fuga culpa ducimus! Distinctio, nemo incidunt?
+                    </p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Request Access
+                    </button>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 bg-secondary text-white">
+        <div class="container text-center">
+            <p>&copy; 2023 Yaela's Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- modal itself -->
+
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the latest Updates</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, reiciendis similique dolore ab illo accusantium ullam at, quasi consectetur facilis rem sequi. Assumenda alias voluptatibus quidem possimus illo similique eaque?</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="text" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+                </div>
+                <div class="modal-footer bg-light justify-content-center">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
